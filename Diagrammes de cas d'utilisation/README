@@ -1,0 +1,7 @@
+Système de Location de Résidences : Fonctionnalités Principales
+
+Ce système permet de gérer la location de résidences de courte durée. Il y a deux types d'acteurs :
+Gestionnaires : Ils configurent les locations, gèrent les disponibilités et les tarifs, modèrent les avis et définissent des conditions.
+Locataires : Ils réservent et paient les logements, notent les biens, et peuvent modifier ou annuler leurs réservations.
+
+En bref, le système facilite la gestion des locations pour les gestionnaires et la réservation pour les locataires.
