@@ -1,0 +1,41 @@
+Plateforme de Réservation de Logements et de Matériel : Guide Technique
+Ce document détaille le processus de réservation et de gestion des avis sur notre plateforme. Il sert de référence pour comprendre le fonctionnement du système, de la réservation initiale à la modération des avis.
+
+Vue d'Ensemble
+Notre plateforme permet aux utilisateurs de réserver des logements et du matériel, de laisser des avis et aux gestionnaires de modérer ces avis. Voici une description des différents flux :
+
+1. Réservation de Logement
+Participants : Utilisateur, Système de Gestion des Logements, Système de Réservation, Logement
+Actions : L'utilisateur consulte les logements disponibles, sélectionne et réserve un logement. Le système vérifie la disponibilité du matériel associé.
+
+2. Réservation de Matériel
+Participants : Utilisateur, Plateforme, Matériel
+Actions : L'utilisateur ajoute du matériel à sa réservation. La plateforme confirme la disponibilité et enregistre la réservation.
+
+3. Paiement
+Participants : Utilisateur, Plateforme, Service de Paiement
+Actions : L'utilisateur effectue le paiement via un service externe. Le système valide les informations et confirme le paiement.
+
+4. Notation et Avis
+Participants : Utilisateur, Plateforme, Système de Gestion des Avis, Logement
+Actions : L'utilisateur soumet un avis pour un logement. Le système vérifie l'existence du logement et enregistre l'avis.
+
+5. Gestion des Avis
+Participants : Gestionnaire, Plateforme, Système de Gestion des Avis
+Actions : Le gestionnaire consulte les avis et valide ceux qui respectent les règles.
+
+Déroulement des Opérations
+Réservation : L'utilisateur réserve un logement et ajoute du matériel si nécessaire.
+Paiement : L'utilisateur règle sa réservation.
+Confirmation : L'utilisateur reçoit une confirmation.
+Avis : L'utilisateur peut laisser un avis après son séjour.
+Modération : Le gestionnaire valide les avis.
+
+Notes Importantes
+Ce document décrit le fonctionnement général. Des cas particuliers peuvent exister.
+Les erreurs sont gérées à chaque étape pour assurer la fiabilité du système.
+Les détails techniques précis ne sont pas abordés ici.
+Aussi, le diagramme de séquence de la résevation de prestation n'a pas été représenté car étant identique à celui de la réservation de matériel.
+
+Conclusion
+Ce guide donne une vision claire du processus de réservation et de gestion des avis. Il permet de comprendre les interactions entre les différents composants de la plateforme.
