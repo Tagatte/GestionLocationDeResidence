@@ -7,4 +7,5 @@ Les paiements : pour garder une trace de tout.
 Les extras : comme les services ou le matériel qu'on peut ajouter.
 Les avis : ce que les gens pensent des logements.
 Les utilisateurs : ceux qui réservent (les locataires) et ceux qui gèrent (les gestionnaires).
+
 Tout ça est relié pour que ça marche ensemble : un logement est dans une résidence, une réservation entraîne un paiement, etc. Et bien sûr, les gestionnaires peuvent jeter un œil aux avis et les valider.
