@@ -1,0 +1,33 @@
+Processus de Réservation et Gestion des Logements
+Ce document décrit les différentes étapes et états possibles d'une réservation de logement, ainsi que le cycle de vie d'un logement et le processus de gestion des avis.
+
+1. Processus de Réservation d'un Logement
+Ce diagramme explique comment une réservation évolue depuis la sélection du logement jusqu'à son paiement ou son annulation, en passant par les options d'ajout de matériel ou de prestations.
+
+Étapes Clés
+Début : Le processus commence avec la sélection d'un logement.
+Logement choisi : Si le logement est déjà réservé, il devient indisponible. Sinon, il est disponible.
+Options : Le locataire peut ajouter du matériel ou des prestations.
+Fin : La réservation est payée, modifiée puis payée, ou annulée.
+États Finaux
+Payé : La réservation est finalisée avec succès.
+Annulé : La réservation est annulée.
+
+
+2. Cycle de Vie d'un Logement et Gestion des Avis
+Ce diagramme décrit les différentes étapes et états possibles d'un logement, ainsi que le processus de gestion des avis.
+
+Cycle de Vie du Logement
+Configuré : Le gestionnaire configure le logement.
+Disponible : Le logement est disponible à la réservation.
+Réservé : Le logement est réservé par un locataire.
+Indisponible : Le bail du locataire a expiré.
+Bail écoulé : Le bail est terminé, avec ou sans avis du locataire.
+Gestion des Avis
+Locataire : Le locataire laisse un avis.
+Avis laissé : L'avis est enregistré.
+Gestionnaire : Le gestionnaire valide ou non l'avis.
+Validé : L'avis est validé.
+
+En Résumé
+Ces diagrammes montrent ensemble le parcours complet d'une réservation, depuis la sélection du logement jusqu'à la fin du bail, en passant par les options d'ajout, le paiement, et la gestion des avis. Ils permettent de comprendre les différentes étapes et états possibles, ainsi que les actions des locataires et des gestionnaires.
