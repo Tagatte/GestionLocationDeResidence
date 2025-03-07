@@ -7,3 +7,9 @@ Binômes
 DIOP Tagatte
 
 MANEH Edemagnon Mathieu
+
+
+
+
+# Réponse à la question 4
+En comparant le code généré par Modelio Java Designer avec nos exercices du TD5, nous avons remarqué une forte correspondance. C'est logique, puisque nos diagrammes de classes étaient simples et principalement axés sur la structure des données. Modelio génère un code standard, ce qui correspond à ce que nous aurions écrit à la main. L'outil est très efficace pour cette partie, mais pour la logique métier, c'est à nous de l'implémenter.
