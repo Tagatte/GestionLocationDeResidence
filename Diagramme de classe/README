@@ -1,0 +1,10 @@
+Nous avons mis en place un système pour gérer les réservations de logements. Imaginez une base de données avec des infos sur :
+
+Les lieux : chaque résidence a des logements.
+Les logements : on y trouve les infos, les tarifs, et les périodes où ils sont libres ou occupés.
+Les réservations : qui a réservé, quand, et combien ça coûte.
+Les paiements : pour garder une trace de tout.
+Les extras : comme les services ou le matériel qu'on peut ajouter.
+Les avis : ce que les gens pensent des logements.
+Les utilisateurs : ceux qui réservent (les locataires) et ceux qui gèrent (les gestionnaires).
+Tout ça est relié pour que ça marche ensemble : un logement est dans une résidence, une réservation entraîne un paiement, etc. Et bien sûr, les gestionnaires peuvent jeter un œil aux avis et les valider.
